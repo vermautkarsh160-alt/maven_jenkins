@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite parallel="tests" name="Suite">
+  <test parallel="tests" name="a">
+     <classes>
+       <class name="types_of_execution.Demo4Test"></class>
+     </classes>
+  </test> 
+  
+  <test parallel="tests" name="b">
+     <classes>
+       <class name="types_of_execution.Demo5Test"></class>
+     </classes>
+  </test> 
+  
+  <test parallel="tests" name="c">
+     <classes>
+       <class name="types_of_execution.Demo6Test"></class>
+     </classes>
+  </test> 
+</suite> 
